@@ -1,8 +1,8 @@
 ##Vue Pusher Plugin
-Simple plugin for managing channels and events within vue utilising pusher-js
+>Simple plugin for managing channels and events within vue utilising pusher-js
 
 ##Usage
-Import as plugin in your main.js file
+>Import as plugin in your main.js file
 
 ```js
 //main.js
@@ -16,7 +16,7 @@ Vue.use(Pusher, {
 })
 ```
 
-Use available methods in components
+>Use available methods in components
 * ```subscribeToPusherChannel(channel)```
 * ```unsubscribeFromPusherChannel(channel)```
 * ```bindEventToPusherChannel(channel, event, callback)```
