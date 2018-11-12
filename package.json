@@ -1,21 +1,25 @@
 {
-  "name": "pusher-plugin",
-  "version": "0.0.1",
-  "description": "A simple plugin for managing channels and events with pusher",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "vue",
-    "plugin",
-    "pusher"
-  ],
-  "author": "Andres Janes <andresjanes@hotmail.co.uk>",
-  "license": "MIT",
-  "dependencies": {
-    "pusher-js": "^4.3.1",
-    "underscore": "^1.9.1",
-    "vue": "^2.5.17"
-  }
+    "name": "pusher-plugin",
+    "version": "0.0.1",
+    "description": "A simple plugin for managing channels and events with pusher",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "vue",
+        "plugin",
+        "pusher"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ajanes93/pusher-plugin.git"
+    },
+    "author": "Andres Janes <andresjanes@hotmail.co.uk>",
+    "license": "MIT",
+    "dependencies": {
+        "pusher-js": "^4.3.1",
+        "underscore": "^1.9.1",
+        "vue": "^2.5.17"
+    }
 }
