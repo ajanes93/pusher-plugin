@@ -1,27 +1,35 @@
 {
-  "name": "pusher-plugin",
-  "version": "0.0.2",
-  "description": "Simple plugin for managing channels and events within vue utilising pusher-js",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish-please": "publish-please",
-    "prepublishOnly": "publish-please guard"
-  },
-  "keywords": [
-    "vue",
-    "plugin",
-    "pusher"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:ajanes93/pusher-plugin.git"
-  },
-  "author": "Andres Janes <andresjanes@hotmail.co.uk>",
-  "license": "MIT",
-  "dependencies": {
-    "pusher-js": "^4.3.1",
-    "underscore": "^1.9.1",
-    "vue": "^2.5.17"
-  }
+    "name": "pusher-plugin",
+    "version": "0.0.2",
+    "description": "Simple plugin for managing channels and events within vue utilising pusher-js",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "publish-please": "publish-please",
+        "prepublishOnly": "publish-please guard"
+    },
+    "keywords": [
+        "vue",
+        "plugin",
+        "pusher"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ajanes93/pusher-plugin.git"
+    },
+    "author": "Andres Janes <andresjanes@hotmail.co.uk>",
+    "license": "MIT",
+    "dependencies": {
+        "pusher-js": "^4.3.1",
+        "underscore": "^1.9.1",
+        "vue": "^2.5.17"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-plugin-module-resolver": "3.1.1",
+        "babel-plugin-transform-define": "^1.3.0",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.7.0"
+    }
 }
