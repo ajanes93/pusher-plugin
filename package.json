@@ -1,6 +1,6 @@
 {
     "name": "pusher-plugin",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Simple plugin for managing channels and events within vue utilising pusher-js",
     "main": "index.js",
     "scripts": {
