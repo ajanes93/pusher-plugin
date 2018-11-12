@@ -1,7 +1,7 @@
 {
   "name": "pusher-plugin",
   "version": "0.0.1",
-  "description": "A simple plugin for managing channels and events with pusher",
+  "description": "Simple plugin for managing channels and events within vue utilising pusher-js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
