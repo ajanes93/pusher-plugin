@@ -17,7 +17,7 @@
         "type": "git",
         "url": "git@github.com:ajanes93/pusher-plugin.git"
     },
-    "author": "Andres Janes <andresjanes@hotmail.co.uk>",
+    "author": "Andres Janes <dev@andresjanes.com>",
     "license": "MIT",
     "dependencies": {
         "pusher-js": "^4.3.1",
