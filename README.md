@@ -20,7 +20,7 @@ Vue.use(Pusher, {
 * ```subscribeToPusherChannel(channel)```
 * ```unsubscribeFromPusherChannel(channel)```
 * ```bindEventToPusherChannel(channel, event, callback)```
-* ```bindEventToPusherChannel(channel, event, callback = false)```
+* ```unbindEventFromPusherChannel(channel, event, callback = false)```
 
 ```vue
 //Hello.vue
